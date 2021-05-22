@@ -20,4 +20,5 @@ person[$data3]=$key3
 for key in ${!person[@]}
 do
  echo "$key=${person[$key]}"
+ echo "We make in remote location"
 done
