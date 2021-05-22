@@ -1,0 +1,13 @@
+#!/bin/bash   
+declare -a array_num
+for i in {0..4}
+do
+	randomNums=$((RANDOM%999))	
+	echo $randomNums
+	if [ $randomNums -lt 100 ]
+		then
+			echo "Less"
+	f
+done
+echo "${array_num[@]}"
+
