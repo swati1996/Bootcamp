@@ -11,4 +11,5 @@ echo "${!sound[@]}"
 for key in ${!sound[@]}
 do
 	echo "$key:${sound[$key]}"
+	echo "Remote changes"
 done
